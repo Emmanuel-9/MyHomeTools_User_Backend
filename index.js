@@ -7,6 +7,7 @@ const app = express();
 app.use (express.json())
 
 app.use("/product", require('./routes/products'))
+app.use("/orders", require('./routes/orders'))
 
 //specify the port
 const port = process.env.PORT
