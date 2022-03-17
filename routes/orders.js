@@ -5,6 +5,7 @@ const orderController = require('../controllers/orderController')
 
 
 router.post("/", orderController.createOrder)
+router.get('/find', orderController.findOrder)
 
 
 module.exports = router
