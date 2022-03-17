@@ -11,3 +11,17 @@ exports.createOrder = async (req, res) => {
         res.status(500).json(error)
     }
 }
+
+
+exports.findOrder = (req, res) => {
+    order.find()
+    .then((orders) => {
+        res.status(201).json(orders)
+    })
+    .catch((err) => {
+        res.status(500).json({
+            message:
+            err.message || "an error occurred while retrieving your orders",
+        })
+    })
+}
