@@ -1,6 +1,6 @@
 const product = require("../models/product")
 
-let productss = [
+let products = [
   {
     product_name: "heater",
     description: "large",
