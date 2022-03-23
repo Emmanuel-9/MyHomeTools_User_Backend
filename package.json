@@ -6,15 +6,13 @@
   "scripts": {
     "start": "nodemon index.js",
     "server": "nodemon server.js",
-    "client": "npm start --prefix client",
-    "dev": "env-cmd -f ./config/dev.env nodemon src/app.js",
     "test": "mocha --timeout 10000"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Finsense-Africa/MyHomeTools_User_Backend.git"
   },
-  "author": "mo",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Finsense-Africa/MyHomeTools_User_Backend/issues"
